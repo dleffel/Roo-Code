@@ -1,5 +1,5 @@
 import { Metadata } from "next"
-import { Shield, Lock, CheckCircle, Users, Zap, FileCheck, Globe, Phone } from "lucide-react"
+import { Shield, Lock, CheckCircle, Users, Zap, FileCheck, Phone } from "lucide-react"
 
 import { Button } from "@/components/ui"
 import { AnimatedText } from "@/components/animated-text"
@@ -325,8 +325,8 @@ export default function SecurityPage() {
 						<div className="rounded-lg border border-border bg-card p-6 shadow-sm">
 							<h3 className="mb-3 text-lg font-semibold">Q: How are API keys protected?</h3>
 							<p className="text-muted-foreground">
-								<strong>A:</strong> Stored in VSCode's encrypted secret storage, integrated with your OS
-								keychain. Never transmitted in plain text.
+								<strong>A:</strong> Stored in VSCode&apos;s encrypted secret storage, integrated with
+								your OS keychain. Never transmitted in plain text.
 							</p>
 						</div>
 
@@ -415,7 +415,7 @@ export default function SecurityPage() {
 										</a>
 									</div>
 									<div className="text-sm text-muted-foreground">
-										We'll connect you with the right team member
+										We&apos;ll connect you with the right team member
 									</div>
 								</div>
 							</div>
