@@ -10,7 +10,7 @@ import { VscVscode } from "react-icons/vsc"
 import { HiMenu } from "react-icons/hi"
 import { IoClose } from "react-icons/io5"
 
-import { EXTERNAL_LINKS, SECURITY_LINK } from "@/lib/constants"
+import { EXTERNAL_LINKS } from "@/lib/constants"
 import { useLogoSrc } from "@/lib/hooks/use-logo-src"
 import { ScrollButton } from "@/components/ui"
 import ThemeToggle from "@/components/chromes/theme-toggle"
@@ -62,7 +62,7 @@ export function NavBar({ stars, downloads }: NavBarProps) {
 						Enterprise
 					</Link>
 					<a
-						href={SECURITY_LINK}
+						href={EXTERNAL_LINKS.SECURITY}
 						target="_blank"
 						rel="noopener noreferrer"
 						className="text-muted-foreground transition-transform duration-200 hover:scale-105 hover:text-foreground">
@@ -150,7 +150,7 @@ export function NavBar({ stars, downloads }: NavBarProps) {
 						Enterprise
 					</Link>
 					<a
-						href={SECURITY_LINK}
+						href={EXTERNAL_LINKS.SECURITY}
 						target="_blank"
 						rel="noopener noreferrer"
 						className="w-full px-8 py-3 text-left text-sm font-medium text-foreground/80 transition-colors hover:bg-accent hover:text-foreground"
