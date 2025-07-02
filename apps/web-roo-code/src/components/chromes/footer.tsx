@@ -6,7 +6,7 @@ import Image from "next/image"
 import { ChevronDown } from "lucide-react"
 import { FaBluesky, FaDiscord, FaGithub, FaLinkedin, FaReddit, FaTiktok, FaXTwitter } from "react-icons/fa6"
 
-import { EXTERNAL_LINKS, INTERNAL_LINKS } from "@/lib/constants"
+import { EXTERNAL_LINKS, INTERNAL_LINKS, SECURITY_LINK } from "@/lib/constants"
 import { useLogoSrc } from "@/lib/hooks/use-logo-src"
 import { ScrollButton } from "@/components/ui"
 
@@ -119,11 +119,13 @@ export function Footer() {
 										</Link>
 									</li>
 									<li>
-										<Link
-											href={INTERNAL_LINKS.SECURITY}
+										<a
+											href={SECURITY_LINK}
+											target="_blank"
+											rel="noopener noreferrer"
 											className="text-sm leading-6 text-muted-foreground transition-colors hover:text-foreground">
 											Security
-										</Link>
+										</a>
 									</li>
 									<li>
 										<ScrollButton

@@ -20,5 +20,6 @@ export const EXTERNAL_LINKS = {
 
 export const INTERNAL_LINKS = {
 	PRIVACY_POLICY_WEBSITE: "/privacy",
-	SECURITY: "/security",
 }
+
+export const SECURITY_LINK = "https://trust.roocode.com"
